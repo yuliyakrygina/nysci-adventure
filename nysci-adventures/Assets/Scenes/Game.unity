@@ -450,10 +450,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 650359263}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ef28f9f4c44dd34f8aec04204fb4dfd, type: 3}
+  m_Script: {fileID: 11500000, guid: 28e5b30480bbcca4894e0ffabef9bc2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 1419718899582228, guid: d9f22c5149c9016499da75138645587f, type: 2}
+  prefab: {fileID: 1419718899582228, guid: 0cb7dc301f453e24480d2a03fb26da78, type: 2}
 --- !u!1 &1007178889
 GameObject:
   m_ObjectHideFlags: 0
@@ -812,7 +812,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1288226837}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13ace4b18a0277045aabd215877ab1ce, type: 3}
+  m_Script: {fileID: 11500000, guid: af52b23548fa1ec4cb96b02a8c217829, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   questionDisplayText: {fileID: 649376982}
@@ -820,7 +820,7 @@ MonoBehaviour:
   timeRemainingDisplayText: {fileID: 1672931895}
   answerButtonObjectPool: {fileID: 650359265}
   answerButtonParent: {fileID: 1518429382}
-  questionDisplay: {fileID: 649376980}
+  questionDisplay: {fileID: 316674824}
   roundEndDisplay: {fileID: 1953016940}
 --- !u!114 &1288226840
 MonoBehaviour:
@@ -830,36 +830,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 1288226837}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7faf754d37e9c714fb88800f0104717a, type: 3}
+  m_Script: {fileID: 11500000, guid: d2d3ae9e37a1f354cb2ce2c0bd5fa3c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   allRoundData:
-  - name: SPACE
-    timeLimitInSeconds: 4000
+  - name: Space
+    timeLimitInSeconds: 500
     pointsAddedForCorrectAnswer: 200
     questions:
-    - questionText: What are we looking for in other planets and moons for signs of
-        life?
+    - questionText: fdfsdf
       answers:
-      - answerText: Plants
+      - answerText: dfsdf
         isCorrect: 0
-      - answerText: Animals
-        isCorrect: 0
-      - answerText: Water
+      - answerText: dfsdf
         isCorrect: 1
-      - answerText: Amount of O2
-        isCorrect: 0
-    - questionText: Besides a rover, how else would we be able to observe a different
-        planet or moon without sending people to it?
-      answers:
-      - answerText: Sending people there, they will adapt.
-        isCorrect: 0
-      - answerText: Satellites
-        isCorrect: 1
-      - answerText: Sending monkeys
-        isCorrect: 0
-      - answerText: Flying cars
-        isCorrect: 0
 --- !u!1 &1360460280
 GameObject:
   m_ObjectHideFlags: 0
@@ -1176,10 +1160,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1518429381}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb037978b0660ba4aa16d6b2c311f2ca, type: 3}
+  m_Script: {fileID: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  answerText: {fileID: 0}
 --- !u!1 &1634173439
 GameObject:
   m_ObjectHideFlags: 0
